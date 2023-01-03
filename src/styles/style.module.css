@@ -1,0 +1,317 @@
+.header{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    border-bottom: 1px solid #bbb;
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia serif;
+    margin-left: 120px;
+}
+
+.dot{
+    color: #fd471b;
+}
+
+.headerTitle{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    padding-top: 38px;
+}
+
+.menuItem{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.menuContent{
+    text-decoration: none;
+    color: black;
+}
+
+.btnContact{
+    background-color: white;
+    font-weight: 600;
+    font-size: 15px;
+    height: 50px;
+    width: 120px;
+    margin-top: 25px;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+.contentMainContainer{
+    display: flex;
+    flex-direction: column;
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia serif;
+    /* height: 900px; */
+}
+
+.contentUpper{
+    display: flex;
+}
+
+.paddingLeft{
+    padding-left: 120px;
+}
+
+.contentLeft{
+    display: flex;
+    justify-content: start;
+    width: 55%;
+    flex-direction: column;
+}
+
+.contentRight{
+    /* background-color: #ded1c1; */
+    width: 45%;
+    height: auto;
+}
+
+.contentInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    font-size: 80px;
+    /* height: 70%; */
+    text-align: left;
+    font-weight: bold;
+}
+
+.programmerLabel{
+    display: flex;
+    background-color: #5562ff;
+    color: #f2f4fd;
+    width: 190px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.oneLine{
+    display: flex;
+}
+
+.contentInfoDetail{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.projectDone{
+    font-size: 25px;
+}
+
+.contact{
+    font-size: 25px;
+    /* padding-right: 150px; */
+    margin-left: 150px;
+}
+
+.lowerPart{
+    font-size: 20px;
+}
+
+.projectStatistics{
+    height: 30%;
+    background-color: black;
+}
+
+.personalDescription{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.btnProject{
+    background-color: #fd471b;
+    border-color: transparent;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.projectStatistics{
+    display: flex;
+    justify-content: start;
+    padding-top: 50px;
+}
+
+.projectStatisticsLeft{
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: left;
+    width: 50%;
+}
+
+.btnKnowMore{
+    color: black;
+    background-color: yellow;
+    font-weight: bold;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.projectStatisticsRight{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 23px;
+    width: 45%;
+    padding-bottom: 45px;
+    
+}
+
+.customRow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.solidLine{
+    border-top: 1px solid #bbb;
+    margin-bottom: 20px;
+}
+
+.aboutMainContainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+    height: 1000px;
+}
+
+.aboutHeader{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.aboutHeaderLeft{
+    display: flex;
+}
+
+.aboutHeaderRight{
+    margin-top: 50px;
+    padding-right: 80px;
+}
+
+.avatarBorder{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.personalDetail{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-left: 10px;
+}
+
+.personalDetailName{
+    display: flex;
+    justify-content: start;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.personalDetailDetail{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    color: #BBB3C5;
+    font-weight: medium;
+    text-align: start;
+}
+
+.linkedin{
+    text-decoration: none;
+    color: #BBB3C5;
+}
+
+.btnViewPortfolio{
+    background-color: white;
+    border-color: 1px #BBB3C5 solid;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnFollow{
+    background-color: #665B93;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dividers{
+    margin-top: 20px;
+    border-bottom: 1px solid #bbb;
+    margin-right: 80px;
+}
+
+.aboutAboutme{
+    display: flex;
+    margin-top: 30px;
+}
+
+.aboutAboutmeTitle{
+    display: flex;
+    justify-content: start;
+    height: 100px;
+    width: 350px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.aboutAboutmeContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutAboutmeObjective{
+    text-align: left;
+    width: 800px;
+}
+
+.aboutAboutmeLinks{
+    display: flex;
+    margin-top: 20px;
+    background-color: #D991B4;
+    height: 100px;
+    width: 890px;
+    border-radius: 10px;
+}
+
+.logoSize{
+    width: 20%;
+}
